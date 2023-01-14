@@ -53,9 +53,9 @@ font-size: 52px;
 .Button{
     width: 196px;
 height: 44px;
-background: #E02C6D;
+background: var(--button-color);
 border-radius: 41px;
-color: #FFFFFF;
+color: var(--white);
 font-weight: 700;
 font-size: 16px;
 border: none;
