@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+:root {
+    --button-color: #E02C6D;
+    --white: #ffffff;
+  }
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+nav ul> li{
+    list-style: none;
+    padding: 20px;
+    
+}
+nav ul{
+    display: flex;
+}
+.camera-image{
+    background-image: url("../images/Circle\ design.svg");
+}
+.Header-text-image{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.Header-text-image p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.Header-text-image h1{
+    font-weight: 700;
+font-size: 52px;
+}
+
+.Button{
+    width: 196px;
+height: 44px;
+background: #E02C6D;
+border-radius: 41px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+border: none;
+margin-top: 20px;
+}
+.company-logo{
+display: flex;
+justify-content: space-between;
+gap: 30px;
+max-width: 1100px;
+margin: 100px auto;
+padding: 0px 165px;
+}
+.popular-collection{
+    margin: 100px 0px 30px 0;
+    text-align: center;
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.collection{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+.collection-container>div>img{
+    width: 300px;
+    height: 256px;
+}
+
+.items-about{
+    font-weight: 700;
+    font-size: 14px;
+}
+/* .collection-items{
+    position: absolute;
+    width: 329px;
+    height: 476px;
+} */
+.prices{
+    font-weight: 400;
+font-size: 24px;
+}
+.rates{
+    font-size: 14px;
+}
+.see-more{
+    text-align: right;
+    margin-top: 50px;
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 100px auto;
+    gap: 100px;
+    align-items: center;
+}
+footer{
+    background: #0A0826;
+    height: 250px;
+    text-align: center;
+    padding: 50px 589px;
+    color: var(--white);
+}
